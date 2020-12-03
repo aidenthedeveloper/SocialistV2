@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "46355452109",
+    "firebase_url": "https://socialistv2-3f331.firebaseio.com",
+    "project_id": "socialistv2-3f331",
+    "storage_bucket": "socialistv2-3f331.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46355452109:android:45b56bd96df5ec9d46d984",
+        "android_client_info": {
+          "package_name": "com.example.socialistv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46355452109-kkg1sgaspg8jr5hofo0o3fgjo6pvo19u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3wJQ2eN-sNZ-JOnWsRhUrYb1xvVQKeqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46355452109-kkg1sgaspg8jr5hofo0o3fgjo6pvo19u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

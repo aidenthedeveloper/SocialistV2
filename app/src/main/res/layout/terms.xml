@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#b5b5b5"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/txtclose"
+        android:background="#000000"
+        android:layout_gravity="end"
+        tools:text="  X"
+        android:textColor="#FFFFFF"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:fontFamily="@font/fredokaregular"
+        android:text="Terms of Use "
+        android:background="#e33bd0"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:fontFamily="@font/fredokaregular"
+        android:text="Welcome to Socialist!"
+        android:textColor="#e33bd0"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:text="These Terms of Use govern your use of Socialist
+and provide information about the Socialist Service,
+outlined below.
+\nWhen you create an Socialist account or use Socialist,
+you agree to these terms.
+\nThe Socialist Service is one of the Socialist Products,
+provided to you by Socialist, Inc.
+\nThese Terms of Use therefore constitute an agreement
+between you and Socialist, Inc.\n\n
+
+The Socialist Service
+\nWe agree to provide you with the Socialist Service.
+The Service includes all of the Socialist products,
+features, applications,
+services, technologies, and software that we provide to
+advance
+Socialist's mission: To bring you closer to the people and
+things you love. The Service is made up of the
+following aspects (the Service):
+\nOffering personalized opportunities to create,
+connect, communicate, discover, and share.
+People are different.\n\n
+
+The Data Policy
+\nProviding our Service requires collecting
+and using your information. The Data Policy explains
+how we collect, use, and share information in Socialist.\n\n
+
+Your Commitments
+\nIn return for our commitment to provide the Service,
+we require you to make the below commitments to us.
+Who Can Use Socialist.
+You must be at least 13 years old or the minimum legal age
+in your country to use Socialist."/>
+
+
+</LinearLayout>

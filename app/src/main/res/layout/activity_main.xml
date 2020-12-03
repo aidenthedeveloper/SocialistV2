@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end">
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_help"
+        android:onClick="term_onClick"
+        android:id="@+id/help" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_about"
+        android:paddingRight="40dp"
+        android:id="@+id/about"
+        android:onClick="about_onClick"
+        />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/appicon"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        app:srcCompat="@drawable/icon5"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:fontFamily="@font/fredokaregular"
+        android:text="Welcome to \n Socialist" />
+
+    <Button
+        android:id="@+id/btn_Register"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/ic_person_add"
+        android:fontFamily="@font/fredokaregular"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:background="#1778F2"
+        />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginBottom="23dp"
+        android:drawableLeft="@drawable/ic_person_pin_black"
+        android:textColor="#FFFFFF"
+        android:background="#1778F2"
+        android:fontFamily="@font/fredokaregular"
+        android:text="Login" />
+
+
+</LinearLayout>

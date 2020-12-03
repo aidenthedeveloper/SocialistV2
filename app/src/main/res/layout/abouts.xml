@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#b5b5b5"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/txtclose"
+        android:background="#000000"
+        android:layout_gravity="end"
+        tools:text="  X"
+        android:textColor="#FFFFFF"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:background="#e33bd0"
+        android:text="About Us "
+        android:fontFamily="@font/fredokaregular"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#e33bd0"
+        android:textStyle="italic"
+        android:fontFamily="@font/fredokaregular"
+        android:text="\nHead of Socialist"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:text="Khoo Zhi Qin is the Head of Socialist
+where he oversees all functions of the business including
+engineering, product and operations. A designer at heart,
+Khoo is known for balancing sharp design thinking with
+thoughtful product strategy to create experiences that
+bring people together and encourage authentic communication."
+        />
+
+</LinearLayout>
